@@ -1,11 +1,10 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-
 ## Write a short comment describing this function
 
 ## As in makeVector, makeCacheMatrix has four functions
 ## set, get, setmatrix and getmatrix.
-## get retur the matrix stored in the main function
+## get returns the matrix stored in the main function
 ## So, I asign the funtions list to a
 ## I create a matrix to work with, make sure it has an inverse matrix
 
@@ -57,7 +56,6 @@ a$getmatrix()
 d <- a$getmatrix()
 solve(d)
 
-## Write a short comment describing this function
 ## This function returns the inverse of the matrix stored in the main function
 ## set by the function setmatrix
 
@@ -68,6 +66,7 @@ cacheSolve <- function(x=matrix(), ...) {
     solve(m)
   }
 }
+
 
 
 
